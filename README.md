@@ -1,6 +1,6 @@
-# Sample Hardhat Project
+# Easy Ticketing
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Platform that allows to buy/sell real tickets in form of NFTs.
 
 Try running some of the following tasks:
 
