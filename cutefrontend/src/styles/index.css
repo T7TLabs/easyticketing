@@ -1,0 +1,31 @@
+.events-container, .my-tickets-container {
+    display: flex;
+    width: 100%;
+}
+
+.events-container > div, .my-tickets-container > div {
+    width: 50%;
+    margin: 10px;
+    padding-bottom: 20px;
+}
+
+.create-event-form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.create-event-form > div {
+    padding: 5px;
+}
+
+.create-event-form > button {
+    max-width: 128px;
+    margin-top: 10px;
+}
+
+.wallet-connector {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}

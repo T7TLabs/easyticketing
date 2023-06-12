@@ -1,0 +1,56 @@
+{
+  "name": "easy-ticketing-front",
+  "version": "1.0.0",
+  "description": "Frontend for EasyTicketing",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.13.4",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "buffer": "^6.0.3",
+    "ethers": "^5.6.1",
+    "js-file-download": "^0.4.12",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-jimp": "^1.1.7",
+    "react-router-dom": "^6.12.1",
+    "react-scripts": "5.0.0",
+    "web-vitals": "^2.1.4",
+    "web3": "^1.8.0",
+    "web3modal": "^1.9.9",
+    "@web3modal/ethereum": "^2.0.0-alpha.4",
+    "@web3modal/react": "^2.0.0-alpha.4"
+  },
+  "scripts": {
+    "start": "PORT=3008 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "axios": "^0.26.1"
+  }
+}
